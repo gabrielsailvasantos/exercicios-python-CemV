@@ -1,0 +1,6 @@
+times = ('Inter', 'Flamengo', 'Atletico-MG', 'Sao Paulo', 'Fluminense', 'Palmeiras', 'Gremio', 'Athletico-PR', 'Santos', 'Corinthias', 'Bragantino', 'Ceara SC', 'Atletico-GO', 'Sport Recife', 'Fortaleza', 'Bahia', 'Vasco da Gama', 'Goias', 'Coritiba', 'Botafogo')
+print(f'Lista de times do Brasileirao: {times}')
+print(f'Os 5 primeiros sao {times[0:5]}')
+print(f'Os 4 ultimos sao {times[16:]}')
+print(f'Ordem alfabética dos times {sorted(times)}')
+print('O Gremio ta na {} posicao '.format(times.index('Gremio') + 1))
